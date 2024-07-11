@@ -7,13 +7,12 @@ database.
 Oceana® data through historical interaction dashboards.
 
 # Avaya Common Services overview
-Avaya Analytics™ is deployed as a product on Avaya Common Services (Common Services).
-Common Services provides several common services for Avaya products, such as:
-• logging
-• alarming
-• certificate management
-• authentication
-• eventing
-• event monitoring
-Common Services ensures ease of deployment and supports rolling upgrades, thereby simplifying 
-the upgrade process. Every Avaya Analytics™ service is built according to microservices 
+- Avaya Analytics™ is deployed as a product on Avaya Common Services (Common Services).
+- Common Services provides several common services for Avaya products, such as:
+  • logging
+  • alarming
+  • certificate management
+  • authentication
+  • eventing
+  • event monitoring
+- Common Services ensures ease of deployment and supports rolling upgrades, thereby simplifying the upgrade process. Every Avaya Analytics™ service is built according to microservices 
