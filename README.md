@@ -20,8 +20,17 @@ Oceana® data through historical interaction dashboards.
 ![k8s](https://github.com/ManuSureshh/Avaya-Analytics_K8s/assets/155379347/a17a3779-1cfd-47b0-ae10-5f473bfb3558)
 
 
-<p align="center">
-  <img src="https://github.com/ManuSureshh/Avaya-Analytics_K8s/assets/155379347/3f28d42a-18ea-4e0a-a65d-0beadc02f30c" width="40%" style="margin-right: 10px;" />
-  <img src="https://github.com/ManuSureshh/Avaya-Analytics_K8s/assets/155379347/7526193c-0e31-434e-8710-f6c059182e56" width="40%" />
-</p>
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/ManuSureshh/Avaya-Analytics_K8s/assets/155379347/3f28d42a-18ea-4e0a-a65d-0beadc02f30c" width="400" />
+    </td>
+    <td style="padding: 0 20px;"> <!-- Adds a gap between the images -->
+    </td>
+    <td>
+      <img src="https://github.com/ManuSureshh/Avaya-Analytics_K8s/assets/155379347/7526193c-0e31-434e-8710-f6c059182e56" width="400" />
+    </td>
+  </tr>
+</table>
+
 
