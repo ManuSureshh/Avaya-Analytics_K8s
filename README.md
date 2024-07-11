@@ -17,5 +17,4 @@ Oceana® data through historical interaction dashboards.
   - event monitoring
 - Common Services ensures ease of deployment and supports rolling upgrades, thereby simplifying the upgrade process. Every Avaya Analytics™ service is built according to microservices 
 #
-![image](https://github.com/ManuSureshh/Avaya-Analytics_K8s/assets/155379347/72e0ca0e-b3c9-4ab3-9c31-a60e6fb20676)
 
