@@ -19,7 +19,7 @@ Oceana® data through historical interaction dashboards.
 # Avaya Analytics Topology
 ![k8s](https://github.com/ManuSureshh/Avaya-Analytics_K8s/assets/155379347/a17a3779-1cfd-47b0-ae10-5f473bfb3558)
 
-# Below are the deployment process done before deploying it on Kubernetes
+# Deployment process
 <table>
   <tr>
     <td>
