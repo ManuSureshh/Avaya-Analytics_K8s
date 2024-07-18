@@ -12,5 +12,18 @@
 - Extract Downloads:
   ```
   tar -zxvf downloads.tgz -C /var/avaya/artifactCache
+  ```
+
+  ```
   df -h  # Check disk space
-```
+  ```
+
+- Upload Solution Images:
+  ```
+  agn load -d /var/avaya/artifactCache/downloads -h <Cluster Control Manager FQDN>
+  ```
+
+- Enter the username and password when prompted.
+
+3. Installing Cylance
+
