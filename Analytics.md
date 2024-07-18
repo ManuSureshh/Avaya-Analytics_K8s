@@ -27,9 +27,35 @@
 
 ## 3. Installing Cylance
 - Install Cylance on CCM:
-```
-rpm -ivh CylancePROTECTOpenDriver-3.0.1005-2344.el8.x86_64.rpm
-rpm -ivh CylancePROTECTDriver-3.0.1005-2344.el8.x86_64.rpm
-rpm -ivh CylancePROTECT.el8.rpm
-```
+  ```
+  rpm -ivh CylancePROTECTOpenDriver-3.0.1005-2344.el8.x86_64.rpm
+  rpm -ivh CylancePROTECTDriver-3.0.1005-2344.el8.x86_64.rpm
+  rpm -ivh CylancePROTECT.el8.rpm
+  ```
+- Copy Cylance RPM to Nodes:
+  ```
+  scp cust@10.30.7.51:/home/cust/CylancePROTECTOpenDriver-3.0.1005-2344.el8.x86_64.rpm /var/vcap/data
+  scp cust@10.30.7.51:/home/cust/CylancePROTECTDriver-3.0.1005-2344.el8.x86_64.rpm /var/vcap/data
+  scp cust@10.30.7.51:/home/cust/CylancePROTECT.el8.rpm /var/vcap/data
+  ```
+- Install Cylance on Nodes:
+  ```
+  cd /var/vcap/data
+  rpm -ivh CylancePROTECTOpenDriver-3.0.1005-2344.el8.x86_64.rpm
+  rpm -ivh CylancePROTECTDriver-3.0.1005-2344.el8.x86_64.rpm
+  rpm -ivh CylancePROTECT.el8.rpm
+  ```
+## 4. Deploy Avaya Analytics
+- Verify Disk Space:
+  ```
+  df -h
+  ```
+- Extract Downloads on CCM:
+  ```
+  tar -zxvf downloads.tgz -C /var/avaya/artifactCache
+  ```
 
+- Load Solution Images and Charts:
+  ```
+  agn load -d /var/avaya/artifactCache/downloads -h <Cluster Control Manager FQDN>
+  ```
