@@ -26,5 +26,10 @@
 - Enter the username and password when prompted.
 
 ## 3. Installing Cylance
-- 
+- Install Cylance on CCM:
+```
+rpm -ivh CylancePROTECTOpenDriver-3.0.1005-2344.el8.x86_64.rpm
+rpm -ivh CylancePROTECTDriver-3.0.1005-2344.el8.x86_64.rpm
+rpm -ivh CylancePROTECT.el8.rpm
+```
 
