@@ -33,4 +33,6 @@ Oceana® data through historical interaction dashboards.
   </tr>
 </table>
 
-
+## Prerequisites: -
+- Kubernetes Cluster
+- 
