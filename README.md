@@ -35,4 +35,5 @@ Oceana® data through historical interaction dashboards.
 
 ## Prerequisites: -
 - Kubernetes Cluster
+- AACS
 - 
