@@ -26,8 +26,9 @@ Oceana® data through historical interaction dashboards.
 **5. Cluster Setup:**
 Ensure you have a Kubernetes cluster with `three master nodes` and one `Cluster Control Manager` (CCM) node.
 
-
-2. Download Required Files: Download Avaya Analytics and Avaya Common Services files from the Avaya Product Licensing and Delivery System (PLDS). Since This ensures that all necessary services and dependencies are properly licensed.
+**6. Download Required Files:**
+Download Avaya Analytics and Avaya Common Services files from the Avaya Product Licensing and Delivery System (PLDS). 
+Since necessary `services and dependencies are properly licensed`, we need to download the License File from PLDS.
 3. Prepare Deployment Spreadsheet: Complete the Avaya_Oceana_Application_Deployment_<ReleaseNumber>.xlsm file with the necessary configuration details.
 
 # Installation Steps
