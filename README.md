@@ -33,6 +33,7 @@ Ensure you have a Kubernetes cluster with `three master nodes` and one `Cluster 
 
 
 ## 7. Setting Up Cluster Control Manager (CCM)
+- Make sure you have dedicated virtual machine to install CCM.
 - Extract Downloads:
   ```
   tar -zxvf downloads.tgz -C /var/avaya/artifactCache
