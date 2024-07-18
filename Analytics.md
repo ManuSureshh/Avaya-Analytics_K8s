@@ -5,5 +5,12 @@
 
 # Installation Steps
 1. Pre-Installation
-- Download Avaya Common Services License: Ensure the CCM has public internet access or prepare for offline deployment.
-- Complete Deployment Spreadsheet: Fill out the macro-enabled deployment spreadsheet with the appropriate configuration values.
+- Download Avaya `Common Services License`: Ensure the CCM has public internet access or prepare for offline deployment.
+- Complete `Deployment Spreadsheet`: Fill out the macro-enabled deployment spreadsheet with the appropriate configuration values.
+
+2. Setting Up Cluster Control Manager (CCM)
+- Extract Downloads:
+  ```
+  tar -zxvf downloads.tgz -C /var/avaya/artifactCache
+  df -h  # Check disk space
+```
