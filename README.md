@@ -1,3 +1,27 @@
+## Prerequisites for Deploying Avaya Analytics on Kubernetes
+**1. Client Computer Specifications:**
+- Operating System: Windows 10 Professional or Enterprise (v1903 or later) or macOS Catalina (10.15.4 or later).
+- Hardware Requirements:
+  - 2 GB of available free memory.
+  - 1 CPU with 2.0 GHz or higher.
+  - 60 GB of disk space for regular offline installation or 100 GB for manual transfer.
+
+**2. Administrative Privileges:**
+- Local account administrator privileges on Windows or Mac.
+
+**3. Software Requirements:**
+- Docker Desktop: Install Docker Desktop for Windows or Mac (version 2.2.0.3 or later).
+- Cluster Control Manager (CCM): Ensure that CCM has internet access for online deployment.
+Knowledge Requirements:
+
+**4. Credentials:**
+- Avaya SSO credentials for software deployment.
+
+#  Deployment Procedure
+
+
+
+
 # Avaya Analytics™ overview
 - Avaya Analytics™ is a microservices-based reporting solution that collects events from Avaya 
 Oceana®.
