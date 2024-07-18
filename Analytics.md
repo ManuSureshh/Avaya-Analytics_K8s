@@ -88,4 +88,14 @@
   systemctl enable cylancesvc.service
   systemctl start cylancesvc.service
   ```
-  
+
+## Using Helm chart
+- Download Analytics Package: Obtain the Avaya Analytics package from the Avaya PLDS (Product Licensing and Delivery System).
+- Helm Chart Deployment: Use Helm, a Kubernetes package manager, to deploy Avaya Analytics.
+  - Add Helm Repository:
+    ``` helm repo add avaya-repo <repository_url> ```
+  - Update Helm Repositories:
+    ``` helm repo update ```
+  - Install Analytics via Helm:
+    ``` helm install avaya-analytics avaya-repo/avaya-analytics ```
+    
