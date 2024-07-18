@@ -59,3 +59,33 @@
   ```
   agn load -d /var/avaya/artifactCache/downloads -h <Cluster Control Manager FQDN>
   ```
+- Start Cluster Deployment:
+  ```
+  kubectl apply -f avaya-analytics-deployment.yaml
+  ```
+
+## 5. Verifying the Deployment
+- Check Pods Status:
+  ```
+  kubectl get pods --all-namespaces
+  ```
+- Check Services Status:
+  ```
+  kubectl get services --all-namespaces
+  ```
+## 6. Post-Installation
+- Verify Cylance Protection:
+  ```
+  systemctl status cylancesvc
+  ```
+- Disable Cylance Before Upgrade:
+  ```
+  systemctl stop cylancesvc.service
+  systemctl disable cylancesvc.service
+  ```
+- Re-enable Cylance After Upgrade:
+  ```
+  systemctl enable cylancesvc.service
+  systemctl start cylancesvc.service
+  ```
+  
